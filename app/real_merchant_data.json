@@ -1,0 +1,1602 @@
+[
+  {
+    "merchant_id": "MERCH-000155",
+    "merchant_name": "Shell Gas",
+    "category": "Healthcare",
+    "business_type": "Service",
+    "established_date": "2019-07-17T21:50:32.463250",
+    "location": {
+      "address": "5744 Business St",
+      "city": "New York",
+      "state": "IL",
+      "zip": "66502"
+    },
+    "average_transaction": 369.28,
+    "rating": 4.1,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000978",
+    "merchant_name": "Apple Store",
+    "category": "Gas",
+    "business_type": "Service",
+    "established_date": "2017-07-15T21:50:32.463699",
+    "location": {
+      "address": "9464 Commerce St",
+      "city": "Los Angeles",
+      "state": "IL",
+      "zip": "93532"
+    },
+    "average_transaction": 89.43,
+    "rating": 4.7,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000036",
+    "merchant_name": "Walmart",
+    "category": "Dining",
+    "business_type": "Restaurant",
+    "established_date": "2016-05-02T21:50:32.463824",
+    "location": {
+      "address": "7120 Main St",
+      "city": "Phoenix",
+      "state": "GA",
+      "zip": "56098"
+    },
+    "average_transaction": 221.16,
+    "rating": 4.4,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000280",
+    "merchant_name": "Nike",
+    "category": "Shopping",
+    "business_type": "Wholesale",
+    "established_date": "2023-06-19T21:50:32.463880",
+    "location": {
+      "address": "3605 Main St",
+      "city": "Phoenix",
+      "state": "IL",
+      "zip": "91745"
+    },
+    "average_transaction": 229.57,
+    "rating": 4.3,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000414",
+    "merchant_name": "McDonald's",
+    "category": "Shopping",
+    "business_type": "Restaurant",
+    "established_date": "2023-11-17T21:50:32.464088",
+    "location": {
+      "address": "5561 Main St",
+      "city": "Houston",
+      "state": "FL",
+      "zip": "51207"
+    },
+    "average_transaction": 202.66,
+    "rating": 3.0,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000370",
+    "merchant_name": "Chevron",
+    "category": "Dining",
+    "business_type": "Restaurant",
+    "established_date": "2013-05-23T21:50:32.464191",
+    "location": {
+      "address": "5036 Business St",
+      "city": "San Antonio",
+      "state": "IL",
+      "zip": "30761"
+    },
+    "average_transaction": 194.98,
+    "rating": 4.1,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000966",
+    "merchant_name": "Walmart",
+    "category": "Travel",
+    "business_type": "Service",
+    "established_date": "2017-06-16T21:50:32.464611",
+    "location": {
+      "address": "6657 Main St",
+      "city": "Phoenix",
+      "state": "NC",
+      "zip": "50026"
+    },
+    "average_transaction": 161.75,
+    "rating": 3.2,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000260",
+    "merchant_name": "Whole Foods",
+    "category": "Healthcare",
+    "business_type": "Online",
+    "established_date": "2023-04-16T21:50:32.464700",
+    "location": {
+      "address": "1207 Market St",
+      "city": "Los Angeles",
+      "state": "GA",
+      "zip": "12107"
+    },
+    "average_transaction": 250.67,
+    "rating": 3.4,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000225",
+    "merchant_name": "Costco",
+    "category": "Gas",
+    "business_type": "Online",
+    "established_date": "2015-02-11T21:50:32.464926",
+    "location": {
+      "address": "1783 Market St",
+      "city": "Philadelphia",
+      "state": "FL",
+      "zip": "26600"
+    },
+    "average_transaction": 420.4,
+    "rating": 3.4,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000997",
+    "merchant_name": "Nordstrom",
+    "category": "Home Improvement",
+    "business_type": "Restaurant",
+    "established_date": "2010-12-07T21:50:32.464970",
+    "location": {
+      "address": "2922 Commerce St",
+      "city": "Chicago",
+      "state": "TX",
+      "zip": "86595"
+    },
+    "average_transaction": 182.04,
+    "rating": 3.8,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000349",
+    "merchant_name": "Apple Store",
+    "category": "Electronics",
+    "business_type": "Retail",
+    "established_date": "2011-03-20T21:50:32.465189",
+    "location": {
+      "address": "6248 Commerce St",
+      "city": "Los Angeles",
+      "state": "NY",
+      "zip": "99715"
+    },
+    "average_transaction": 130.13,
+    "rating": 3.2,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000043",
+    "merchant_name": "Whole Foods",
+    "category": "Clothing",
+    "business_type": "Service",
+    "established_date": "2014-05-10T21:50:32.465236",
+    "location": {
+      "address": "5829 Main St",
+      "city": "Phoenix",
+      "state": "FL",
+      "zip": "32508"
+    },
+    "average_transaction": 401.37,
+    "rating": 4.0,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000290",
+    "merchant_name": "Target",
+    "category": "Gas",
+    "business_type": "Wholesale",
+    "established_date": "2016-09-29T21:50:32.465459",
+    "location": {
+      "address": "5089 Business St",
+      "city": "San Antonio",
+      "state": "NY",
+      "zip": "93745"
+    },
+    "average_transaction": 222.05,
+    "rating": 3.5,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000425",
+    "merchant_name": "Apple Store",
+    "category": "Entertainment",
+    "business_type": "Wholesale",
+    "established_date": "2011-05-17T21:50:32.465503",
+    "location": {
+      "address": "7906 Commerce St",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "81791"
+    },
+    "average_transaction": 294.56,
+    "rating": 3.6,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000045",
+    "merchant_name": "Apple Store",
+    "category": "Electronics",
+    "business_type": "Retail",
+    "established_date": "2020-08-19T21:50:32.465614",
+    "location": {
+      "address": "4681 Business St",
+      "city": "New York",
+      "state": "GA",
+      "zip": "91120"
+    },
+    "average_transaction": 266.01,
+    "rating": 4.9,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000784",
+    "merchant_name": "Shell Gas",
+    "category": "Entertainment",
+    "business_type": "Retail",
+    "established_date": "2015-03-15T21:50:32.465660",
+    "location": {
+      "address": "6238 Business St",
+      "city": "San Antonio",
+      "state": "NY",
+      "zip": "24625"
+    },
+    "average_transaction": 283.21,
+    "rating": 4.5,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000800",
+    "merchant_name": "Amazon",
+    "category": "Shopping",
+    "business_type": "Service",
+    "established_date": "2006-05-19T21:50:32.465704",
+    "location": {
+      "address": "2664 Main St",
+      "city": "Dallas",
+      "state": "GA",
+      "zip": "93074"
+    },
+    "average_transaction": 71.1,
+    "rating": 4.5,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000399",
+    "merchant_name": "Nordstrom",
+    "category": "Electronics",
+    "business_type": "Restaurant",
+    "established_date": "2005-10-21T21:50:32.466103",
+    "location": {
+      "address": "3632 Commerce St",
+      "city": "San Jose",
+      "state": "NY",
+      "zip": "63687"
+    },
+    "average_transaction": 341.86,
+    "rating": 3.4,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000094",
+    "merchant_name": "Costco",
+    "category": "Travel",
+    "business_type": "Online",
+    "established_date": "2023-09-26T21:50:32.466147",
+    "location": {
+      "address": "9885 Main St",
+      "city": "Los Angeles",
+      "state": "TX",
+      "zip": "47792"
+    },
+    "average_transaction": 369.91,
+    "rating": 4.5,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000419",
+    "merchant_name": "Best Buy",
+    "category": "Entertainment",
+    "business_type": "Wholesale",
+    "established_date": "2018-05-15T21:50:32.466190",
+    "location": {
+      "address": "8529 Business St",
+      "city": "Philadelphia",
+      "state": "IL",
+      "zip": "40454"
+    },
+    "average_transaction": 405.95,
+    "rating": 4.4,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000341",
+    "merchant_name": "Amazon",
+    "category": "Dining",
+    "business_type": "Restaurant",
+    "established_date": "2014-03-13T21:50:32.466321",
+    "location": {
+      "address": "4141 Main St",
+      "city": "San Jose",
+      "state": "PA",
+      "zip": "73733"
+    },
+    "average_transaction": 78.29,
+    "rating": 3.8,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000587",
+    "merchant_name": "Best Buy",
+    "category": "Groceries",
+    "business_type": "Wholesale",
+    "established_date": "2010-02-13T21:50:32.466365",
+    "location": {
+      "address": "7573 Commerce St",
+      "city": "Dallas",
+      "state": "PA",
+      "zip": "20967"
+    },
+    "average_transaction": 321.43,
+    "rating": 4.8,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000659",
+    "merchant_name": "McDonald's",
+    "category": "Groceries",
+    "business_type": "Service",
+    "established_date": "2014-08-03T21:50:32.466410",
+    "location": {
+      "address": "5186 Market St",
+      "city": "Houston",
+      "state": "NC",
+      "zip": "11347"
+    },
+    "average_transaction": 393.88,
+    "rating": 3.3,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000089",
+    "merchant_name": "Nordstrom",
+    "category": "Shopping",
+    "business_type": "Restaurant",
+    "established_date": "2014-07-16T21:50:32.466454",
+    "location": {
+      "address": "4081 Business St",
+      "city": "San Jose",
+      "state": "AZ",
+      "zip": "86675"
+    },
+    "average_transaction": 148.92,
+    "rating": 3.9,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000208",
+    "merchant_name": "Nike",
+    "category": "Dining",
+    "business_type": "Restaurant",
+    "established_date": "2023-09-12T21:50:32.466632",
+    "location": {
+      "address": "4150 Market St",
+      "city": "San Diego",
+      "state": "NC",
+      "zip": "45503"
+    },
+    "average_transaction": 326.55,
+    "rating": 4.2,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000566",
+    "merchant_name": "Nike",
+    "category": "Entertainment",
+    "business_type": "Wholesale",
+    "established_date": "2008-11-11T21:50:32.466677",
+    "location": {
+      "address": "9837 Main St",
+      "city": "Los Angeles",
+      "state": "GA",
+      "zip": "92093"
+    },
+    "average_transaction": 326.76,
+    "rating": 3.8,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000599",
+    "merchant_name": "Apple Store",
+    "category": "Groceries",
+    "business_type": "Wholesale",
+    "established_date": "2009-01-29T21:50:32.466900",
+    "location": {
+      "address": "4605 Commerce St",
+      "city": "Chicago",
+      "state": "NY",
+      "zip": "77866"
+    },
+    "average_transaction": 425.97,
+    "rating": 4.1,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000046",
+    "merchant_name": "Whole Foods",
+    "category": "Groceries",
+    "business_type": "Online",
+    "established_date": "2012-03-13T21:50:32.467427",
+    "location": {
+      "address": "3233 Business St",
+      "city": "Chicago",
+      "state": "AZ",
+      "zip": "58739"
+    },
+    "average_transaction": 382.83,
+    "rating": 4.5,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000367",
+    "merchant_name": "Starbucks",
+    "category": "Shopping",
+    "business_type": "Service",
+    "established_date": "2013-10-13T21:50:32.467514",
+    "location": {
+      "address": "3198 Commerce St",
+      "city": "Dallas",
+      "state": "PA",
+      "zip": "47583"
+    },
+    "average_transaction": 350.18,
+    "rating": 3.6,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000582",
+    "merchant_name": "Nordstrom",
+    "category": "Clothing",
+    "business_type": "Online",
+    "established_date": "2020-03-20T21:50:32.467563",
+    "location": {
+      "address": "5521 Main St",
+      "city": "San Jose",
+      "state": "AZ",
+      "zip": "79367"
+    },
+    "average_transaction": 368.07,
+    "rating": 3.7,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000485",
+    "merchant_name": "Chevron",
+    "category": "Healthcare",
+    "business_type": "Retail",
+    "established_date": "2014-03-09T21:50:32.467704",
+    "location": {
+      "address": "497 Market St",
+      "city": "Los Angeles",
+      "state": "IL",
+      "zip": "52041"
+    },
+    "average_transaction": 462.4,
+    "rating": 4.5,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000296",
+    "merchant_name": "Nike",
+    "category": "Groceries",
+    "business_type": "Service",
+    "established_date": "2007-11-01T21:50:32.467750",
+    "location": {
+      "address": "4890 Main St",
+      "city": "New York",
+      "state": "OH",
+      "zip": "99124"
+    },
+    "average_transaction": 164.72,
+    "rating": 3.2,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000614",
+    "merchant_name": "Nordstrom",
+    "category": "Groceries",
+    "business_type": "Wholesale",
+    "established_date": "2014-08-18T21:50:32.467794",
+    "location": {
+      "address": "8889 Commerce St",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85729"
+    },
+    "average_transaction": 104.0,
+    "rating": 4.7,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000533",
+    "merchant_name": "Macy's",
+    "category": "Dining",
+    "business_type": "Restaurant",
+    "established_date": "2013-05-01T21:50:32.467926",
+    "location": {
+      "address": "237 Commerce St",
+      "city": "Los Angeles",
+      "state": "NC",
+      "zip": "46343"
+    },
+    "average_transaction": 369.99,
+    "rating": 5.0,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000414",
+    "merchant_name": "Apple Store",
+    "category": "Healthcare",
+    "business_type": "Wholesale",
+    "established_date": "2011-10-14T21:50:32.467970",
+    "location": {
+      "address": "414 Main St",
+      "city": "Dallas",
+      "state": "GA",
+      "zip": "97553"
+    },
+    "average_transaction": 148.86,
+    "rating": 4.1,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000135",
+    "merchant_name": "Costco",
+    "category": "Clothing",
+    "business_type": "Restaurant",
+    "established_date": "2011-04-30T21:50:32.468101",
+    "location": {
+      "address": "122 Main St",
+      "city": "Chicago",
+      "state": "AZ",
+      "zip": "97718"
+    },
+    "average_transaction": 486.53,
+    "rating": 3.1,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000531",
+    "merchant_name": "Nordstrom",
+    "category": "Gas",
+    "business_type": "Online",
+    "established_date": "2012-11-26T21:50:32.461457",
+    "location": {
+      "address": "6978 Commerce St",
+      "city": "San Antonio",
+      "state": "FL",
+      "zip": "77471"
+    },
+    "average_transaction": 341.84,
+    "rating": 4.0,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000918",
+    "merchant_name": "McDonald's",
+    "category": "Groceries",
+    "business_type": "Online",
+    "established_date": "2010-05-16T21:50:32.463618",
+    "location": {
+      "address": "8690 Business St",
+      "city": "New York",
+      "state": "FL",
+      "zip": "89651"
+    },
+    "average_transaction": 368.5,
+    "rating": 4.7,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000271",
+    "merchant_name": "Starbucks",
+    "category": "Home Improvement",
+    "business_type": "Wholesale",
+    "established_date": "2010-07-10T21:50:32.463766",
+    "location": {
+      "address": "3438 Business St",
+      "city": "Philadelphia",
+      "state": "FL",
+      "zip": "35363"
+    },
+    "average_transaction": 411.95,
+    "rating": 4.2,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000855",
+    "merchant_name": "Shell Gas",
+    "category": "Clothing",
+    "business_type": "Online",
+    "established_date": "2015-03-10T21:50:32.463942",
+    "location": {
+      "address": "1935 Commerce St",
+      "city": "Los Angeles",
+      "state": "IL",
+      "zip": "21446"
+    },
+    "average_transaction": 232.58,
+    "rating": 4.3,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000434",
+    "merchant_name": "Home Depot",
+    "category": "Dining",
+    "business_type": "Retail",
+    "established_date": "2009-04-24T21:50:32.464032",
+    "location": {
+      "address": "2533 Market St",
+      "city": "Dallas",
+      "state": "PA",
+      "zip": "31449"
+    },
+    "average_transaction": 346.9,
+    "rating": 4.6,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000383",
+    "merchant_name": "Costco",
+    "category": "Travel",
+    "business_type": "Online",
+    "established_date": "2010-05-28T21:50:32.464140",
+    "location": {
+      "address": "4682 Business St",
+      "city": "Los Angeles",
+      "state": "NY",
+      "zip": "85897"
+    },
+    "average_transaction": 77.37,
+    "rating": 4.9,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000768",
+    "merchant_name": "Walmart",
+    "category": "Groceries",
+    "business_type": "Online",
+    "established_date": "2018-06-12T21:50:32.464247",
+    "location": {
+      "address": "7274 Business St",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "54631"
+    },
+    "average_transaction": 469.97,
+    "rating": 3.2,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000813",
+    "merchant_name": "Best Buy",
+    "category": "Entertainment",
+    "business_type": "Retail",
+    "established_date": "2008-01-03T21:50:32.464372",
+    "location": {
+      "address": "6440 Market St",
+      "city": "Phoenix",
+      "state": "FL",
+      "zip": "79988"
+    },
+    "average_transaction": 439.89,
+    "rating": 4.2,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000407",
+    "merchant_name": "Walmart",
+    "category": "Entertainment",
+    "business_type": "Service",
+    "established_date": "2018-12-29T21:50:32.464423",
+    "location": {
+      "address": "3572 Main St",
+      "city": "Dallas",
+      "state": "NC",
+      "zip": "44732"
+    },
+    "average_transaction": 111.95,
+    "rating": 3.3,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000417",
+    "merchant_name": "Chevron",
+    "category": "Dining",
+    "business_type": "Wholesale",
+    "established_date": "2019-03-23T21:50:32.464473",
+    "location": {
+      "address": "6365 Main St",
+      "city": "Chicago",
+      "state": "GA",
+      "zip": "60482"
+    },
+    "average_transaction": 462.82,
+    "rating": 3.8,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000216",
+    "merchant_name": "Walmart",
+    "category": "Electronics",
+    "business_type": "Retail",
+    "established_date": "2006-07-29T21:50:32.464518",
+    "location": {
+      "address": "9484 Main St",
+      "city": "Chicago",
+      "state": "AZ",
+      "zip": "12808"
+    },
+    "average_transaction": 414.44,
+    "rating": 4.9,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000512",
+    "merchant_name": "Nike",
+    "category": "Travel",
+    "business_type": "Retail",
+    "established_date": "2012-10-11T21:50:32.464837",
+    "location": {
+      "address": "3626 Business St",
+      "city": "Phoenix",
+      "state": "GA",
+      "zip": "41589"
+    },
+    "average_transaction": 68.41,
+    "rating": 4.8,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000989",
+    "merchant_name": "Target",
+    "category": "Groceries",
+    "business_type": "Service",
+    "established_date": "2022-10-02T21:50:32.465015",
+    "location": {
+      "address": "7093 Business St",
+      "city": "Los Angeles",
+      "state": "IL",
+      "zip": "97341"
+    },
+    "average_transaction": 418.22,
+    "rating": 4.9,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000441",
+    "merchant_name": "Starbucks",
+    "category": "Entertainment",
+    "business_type": "Retail",
+    "established_date": "2024-05-06T21:50:32.465146",
+    "location": {
+      "address": "8857 Main St",
+      "city": "Houston",
+      "state": "NC",
+      "zip": "80106"
+    },
+    "average_transaction": 140.29,
+    "rating": 4.8,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000024",
+    "merchant_name": "Target",
+    "category": "Clothing",
+    "business_type": "Service",
+    "established_date": "2017-06-15T21:50:32.465879",
+    "location": {
+      "address": "5931 Market St",
+      "city": "San Diego",
+      "state": "CA",
+      "zip": "35451"
+    },
+    "average_transaction": 51.89,
+    "rating": 3.5,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000019",
+    "merchant_name": "Home Depot",
+    "category": "Dining",
+    "business_type": "Service",
+    "established_date": "2024-02-10T21:50:32.465923",
+    "location": {
+      "address": "8054 Market St",
+      "city": "San Diego",
+      "state": "OH",
+      "zip": "66501"
+    },
+    "average_transaction": 499.79,
+    "rating": 4.4,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000966",
+    "merchant_name": "Costco",
+    "category": "Home Improvement",
+    "business_type": "Restaurant",
+    "established_date": "2022-11-01T21:50:32.466014",
+    "location": {
+      "address": "763 Market St",
+      "city": "Los Angeles",
+      "state": "AZ",
+      "zip": "62848"
+    },
+    "average_transaction": 117.58,
+    "rating": 3.6,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000258",
+    "merchant_name": "Home Depot",
+    "category": "Electronics",
+    "business_type": "Service",
+    "established_date": "2014-05-01T21:50:32.466057",
+    "location": {
+      "address": "5261 Market St",
+      "city": "San Jose",
+      "state": "OH",
+      "zip": "66433"
+    },
+    "average_transaction": 49.71,
+    "rating": 4.2,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000333",
+    "merchant_name": "Home Depot",
+    "category": "Clothing",
+    "business_type": "Service",
+    "established_date": "2017-10-08T21:50:32.466234",
+    "location": {
+      "address": "1407 Market St",
+      "city": "Dallas",
+      "state": "AZ",
+      "zip": "83285"
+    },
+    "average_transaction": 161.04,
+    "rating": 4.0,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000436",
+    "merchant_name": "Best Buy",
+    "category": "Travel",
+    "business_type": "Restaurant",
+    "established_date": "2020-03-18T21:50:32.466540",
+    "location": {
+      "address": "886 Commerce St",
+      "city": "New York",
+      "state": "CA",
+      "zip": "38310"
+    },
+    "average_transaction": 299.59,
+    "rating": 3.8,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000508",
+    "merchant_name": "McDonald's",
+    "category": "Gas",
+    "business_type": "Retail",
+    "established_date": "2017-02-05T21:50:32.466725",
+    "location": {
+      "address": "1835 Market St",
+      "city": "San Antonio",
+      "state": "CA",
+      "zip": "66591"
+    },
+    "average_transaction": 95.53,
+    "rating": 3.7,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000695",
+    "merchant_name": "Starbucks",
+    "category": "Dining",
+    "business_type": "Retail",
+    "established_date": "2008-10-22T21:50:32.466769",
+    "location": {
+      "address": "8884 Main St",
+      "city": "San Diego",
+      "state": "TX",
+      "zip": "84537"
+    },
+    "average_transaction": 384.93,
+    "rating": 4.2,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000430",
+    "merchant_name": "Home Depot",
+    "category": "Travel",
+    "business_type": "Service",
+    "established_date": "2007-11-19T21:50:32.466813",
+    "location": {
+      "address": "4446 Commerce St",
+      "city": "New York",
+      "state": "CA",
+      "zip": "79087"
+    },
+    "average_transaction": 201.99,
+    "rating": 4.0,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000258",
+    "merchant_name": "Home Depot",
+    "category": "Entertainment",
+    "business_type": "Restaurant",
+    "established_date": "2011-02-06T21:50:32.466987",
+    "location": {
+      "address": "1048 Business St",
+      "city": "Chicago",
+      "state": "NC",
+      "zip": "36054"
+    },
+    "average_transaction": 76.05,
+    "rating": 3.8,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000299",
+    "merchant_name": "McDonald's",
+    "category": "Entertainment",
+    "business_type": "Service",
+    "established_date": "2019-09-06T21:50:32.467112",
+    "location": {
+      "address": "1107 Commerce St",
+      "city": "Chicago",
+      "state": "FL",
+      "zip": "70998"
+    },
+    "average_transaction": 212.62,
+    "rating": 3.7,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000253",
+    "merchant_name": "Walmart",
+    "category": "Groceries",
+    "business_type": "Retail",
+    "established_date": "2020-08-13T21:50:32.467156",
+    "location": {
+      "address": "1889 Business St",
+      "city": "Houston",
+      "state": "TX",
+      "zip": "99206"
+    },
+    "average_transaction": 84.15,
+    "rating": 4.8,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000679",
+    "merchant_name": "Macy's",
+    "category": "Travel",
+    "business_type": "Restaurant",
+    "established_date": "2019-01-26T21:50:32.467291",
+    "location": {
+      "address": "6143 Market St",
+      "city": "Philadelphia",
+      "state": "IL",
+      "zip": "29443"
+    },
+    "average_transaction": 168.98,
+    "rating": 3.4,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000473",
+    "merchant_name": "Best Buy",
+    "category": "Entertainment",
+    "business_type": "Restaurant",
+    "established_date": "2018-01-11T21:50:32.467380",
+    "location": {
+      "address": "637 Market St",
+      "city": "Houston",
+      "state": "TX",
+      "zip": "48982"
+    },
+    "average_transaction": 254.83,
+    "rating": 4.3,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000424",
+    "merchant_name": "Macy's",
+    "category": "Shopping",
+    "business_type": "Online",
+    "established_date": "2012-03-26T21:50:32.467615",
+    "location": {
+      "address": "5758 Market St",
+      "city": "San Antonio",
+      "state": "CA",
+      "zip": "37669"
+    },
+    "average_transaction": 485.21,
+    "rating": 3.5,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000585",
+    "merchant_name": "Home Depot",
+    "category": "Healthcare",
+    "business_type": "Retail",
+    "established_date": "2009-02-28T21:50:32.467660",
+    "location": {
+      "address": "8535 Market St",
+      "city": "New York",
+      "state": "PA",
+      "zip": "87260"
+    },
+    "average_transaction": 364.17,
+    "rating": 3.2,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000860",
+    "merchant_name": "Nordstrom",
+    "category": "Gas",
+    "business_type": "Wholesale",
+    "established_date": "2021-08-27T21:50:32.468144",
+    "location": {
+      "address": "7642 Market St",
+      "city": "San Diego",
+      "state": "NC",
+      "zip": "60632"
+    },
+    "average_transaction": 364.62,
+    "rating": 4.4,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000941",
+    "merchant_name": "Nike",
+    "category": "Travel",
+    "business_type": "Restaurant",
+    "established_date": "2022-11-12T21:50:32.468231",
+    "location": {
+      "address": "1605 Commerce St",
+      "city": "Chicago",
+      "state": "OH",
+      "zip": "24680"
+    },
+    "average_transaction": 257.91,
+    "rating": 4.7,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000986",
+    "merchant_name": "Target",
+    "category": "Electronics",
+    "business_type": "Service",
+    "established_date": "2018-07-19T21:50:32.468275",
+    "location": {
+      "address": "6833 Main St",
+      "city": "San Antonio",
+      "state": "PA",
+      "zip": "95812"
+    },
+    "average_transaction": 486.32,
+    "rating": 4.6,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000005",
+    "merchant_name": "Macy's",
+    "category": "Gas",
+    "business_type": "Wholesale",
+    "established_date": "2021-06-05T21:50:32.464294",
+    "location": {
+      "address": "1725 Commerce St",
+      "city": "Philadelphia",
+      "state": "IL",
+      "zip": "69954"
+    },
+    "average_transaction": 89.65,
+    "rating": 4.5,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000257",
+    "merchant_name": "McDonald's",
+    "category": "Home Improvement",
+    "business_type": "Restaurant",
+    "established_date": "2021-03-04T21:50:32.464563",
+    "location": {
+      "address": "7020 Main St",
+      "city": "Philadelphia",
+      "state": "NC",
+      "zip": "72381"
+    },
+    "average_transaction": 23.26,
+    "rating": 3.0,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000116",
+    "merchant_name": "Nike",
+    "category": "Gas",
+    "business_type": "Retail",
+    "established_date": "2018-12-25T21:50:32.464656",
+    "location": {
+      "address": "259 Market St",
+      "city": "San Antonio",
+      "state": "IL",
+      "zip": "95773"
+    },
+    "average_transaction": 306.51,
+    "rating": 4.3,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000395",
+    "merchant_name": "Starbucks",
+    "category": "Dining",
+    "business_type": "Restaurant",
+    "established_date": "2008-02-18T21:50:32.464745",
+    "location": {
+      "address": "3236 Market St",
+      "city": "San Jose",
+      "state": "TX",
+      "zip": "76055"
+    },
+    "average_transaction": 370.85,
+    "rating": 3.5,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000624",
+    "merchant_name": "Costco",
+    "category": "Healthcare",
+    "business_type": "Restaurant",
+    "established_date": "2009-03-18T21:50:32.464793",
+    "location": {
+      "address": "8818 Commerce St",
+      "city": "San Jose",
+      "state": "PA",
+      "zip": "17771"
+    },
+    "average_transaction": 443.75,
+    "rating": 3.0,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000911",
+    "merchant_name": "Whole Foods",
+    "category": "Electronics",
+    "business_type": "Service",
+    "established_date": "2017-10-17T21:50:32.464883",
+    "location": {
+      "address": "5307 Business St",
+      "city": "San Jose",
+      "state": "TX",
+      "zip": "90823"
+    },
+    "average_transaction": 198.89,
+    "rating": 3.1,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000369",
+    "merchant_name": "Apple Store",
+    "category": "Entertainment",
+    "business_type": "Restaurant",
+    "established_date": "2017-12-18T21:50:32.465059",
+    "location": {
+      "address": "8296 Business St",
+      "city": "Dallas",
+      "state": "NC",
+      "zip": "81213"
+    },
+    "average_transaction": 179.32,
+    "rating": 3.2,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000026",
+    "merchant_name": "Home Depot",
+    "category": "Shopping",
+    "business_type": "Retail",
+    "established_date": "2020-12-20T21:50:32.465102",
+    "location": {
+      "address": "3447 Main St",
+      "city": "Los Angeles",
+      "state": "OH",
+      "zip": "99581"
+    },
+    "average_transaction": 30.2,
+    "rating": 4.4,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000694",
+    "merchant_name": "Walmart",
+    "category": "Gas",
+    "business_type": "Wholesale",
+    "established_date": "2023-10-24T21:50:32.465282",
+    "location": {
+      "address": "7077 Business St",
+      "city": "New York",
+      "state": "TX",
+      "zip": "59153"
+    },
+    "average_transaction": 401.44,
+    "rating": 4.4,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000310",
+    "merchant_name": "Macy's",
+    "category": "Home Improvement",
+    "business_type": "Service",
+    "established_date": "2024-05-22T21:50:32.465326",
+    "location": {
+      "address": "9401 Business St",
+      "city": "Philadelphia",
+      "state": "NC",
+      "zip": "19446"
+    },
+    "average_transaction": 432.28,
+    "rating": 3.6,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000023",
+    "merchant_name": "Home Depot",
+    "category": "Gas",
+    "business_type": "Service",
+    "established_date": "2014-04-14T21:50:32.465370",
+    "location": {
+      "address": "1886 Business St",
+      "city": "Houston",
+      "state": "FL",
+      "zip": "58450"
+    },
+    "average_transaction": 490.52,
+    "rating": 4.4,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000085",
+    "merchant_name": "Walmart",
+    "category": "Clothing",
+    "business_type": "Retail",
+    "established_date": "2017-03-10T21:50:32.465416",
+    "location": {
+      "address": "597 Market St",
+      "city": "Chicago",
+      "state": "OH",
+      "zip": "72718"
+    },
+    "average_transaction": 388.64,
+    "rating": 4.3,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000109",
+    "merchant_name": "Macy's",
+    "category": "Healthcare",
+    "business_type": "Wholesale",
+    "established_date": "2016-04-11T21:50:32.465749",
+    "location": {
+      "address": "5090 Market St",
+      "city": "Los Angeles",
+      "state": "FL",
+      "zip": "97428"
+    },
+    "average_transaction": 154.63,
+    "rating": 3.9,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000789",
+    "merchant_name": "Target",
+    "category": "Gas",
+    "business_type": "Online",
+    "established_date": "2009-12-02T21:50:32.465792",
+    "location": {
+      "address": "4134 Market St",
+      "city": "New York",
+      "state": "NY",
+      "zip": "23751"
+    },
+    "average_transaction": 64.83,
+    "rating": 3.5,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000110",
+    "merchant_name": "Target",
+    "category": "Entertainment",
+    "business_type": "Wholesale",
+    "established_date": "2016-05-26T21:50:32.465836",
+    "location": {
+      "address": "371 Business St",
+      "city": "Phoenix",
+      "state": "OH",
+      "zip": "49694"
+    },
+    "average_transaction": 63.68,
+    "rating": 4.7,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000819",
+    "merchant_name": "Target",
+    "category": "Clothing",
+    "business_type": "Service",
+    "established_date": "2011-04-11T21:50:32.465967",
+    "location": {
+      "address": "3881 Market St",
+      "city": "Houston",
+      "state": "FL",
+      "zip": "82912"
+    },
+    "average_transaction": 27.03,
+    "rating": 3.5,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000430",
+    "merchant_name": "Whole Foods",
+    "category": "Dining",
+    "business_type": "Restaurant",
+    "established_date": "2014-09-29T21:50:32.466278",
+    "location": {
+      "address": "8322 Business St",
+      "city": "Chicago",
+      "state": "NY",
+      "zip": "62010"
+    },
+    "average_transaction": 490.13,
+    "rating": 4.2,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000706",
+    "merchant_name": "Whole Foods",
+    "category": "Groceries",
+    "business_type": "Restaurant",
+    "established_date": "2010-08-05T21:50:32.466497",
+    "location": {
+      "address": "696 Business St",
+      "city": "Chicago",
+      "state": "OH",
+      "zip": "34644"
+    },
+    "average_transaction": 163.3,
+    "rating": 4.9,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000027",
+    "merchant_name": "Chevron",
+    "category": "Gas",
+    "business_type": "Online",
+    "established_date": "2007-02-22T21:50:32.466587",
+    "location": {
+      "address": "8129 Commerce St",
+      "city": "Phoenix",
+      "state": "PA",
+      "zip": "87417"
+    },
+    "average_transaction": 359.81,
+    "rating": 3.3,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000654",
+    "merchant_name": "Costco",
+    "category": "Shopping",
+    "business_type": "Retail",
+    "established_date": "2008-08-30T21:50:32.466857",
+    "location": {
+      "address": "7231 Market St",
+      "city": "Houston",
+      "state": "CA",
+      "zip": "73752"
+    },
+    "average_transaction": 465.4,
+    "rating": 3.2,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000821",
+    "merchant_name": "Best Buy",
+    "category": "Gas",
+    "business_type": "Retail",
+    "established_date": "2016-12-10T21:50:32.466944",
+    "location": {
+      "address": "1557 Commerce St",
+      "city": "Houston",
+      "state": "PA",
+      "zip": "77624"
+    },
+    "average_transaction": 62.74,
+    "rating": 4.4,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000673",
+    "merchant_name": "Starbucks",
+    "category": "Travel",
+    "business_type": "Restaurant",
+    "established_date": "2012-06-23T21:50:32.467063",
+    "location": {
+      "address": "6986 Main St",
+      "city": "Philadelphia",
+      "state": "GA",
+      "zip": "70699"
+    },
+    "average_transaction": 430.1,
+    "rating": 3.1,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000746",
+    "merchant_name": "Walmart",
+    "category": "Groceries",
+    "business_type": "Restaurant",
+    "established_date": "2014-11-20T21:50:32.467204",
+    "location": {
+      "address": "691 Business St",
+      "city": "San Diego",
+      "state": "IL",
+      "zip": "75298"
+    },
+    "average_transaction": 208.83,
+    "rating": 4.9,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000932",
+    "merchant_name": "Home Depot",
+    "category": "Groceries",
+    "business_type": "Retail",
+    "established_date": "2011-04-14T21:50:32.467248",
+    "location": {
+      "address": "7744 Commerce St",
+      "city": "Los Angeles",
+      "state": "PA",
+      "zip": "31563"
+    },
+    "average_transaction": 419.66,
+    "rating": 3.8,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000092",
+    "merchant_name": "Nike",
+    "category": "Healthcare",
+    "business_type": "Restaurant",
+    "established_date": "2010-11-16T21:50:32.467335",
+    "location": {
+      "address": "5686 Commerce St",
+      "city": "San Antonio",
+      "state": "TX",
+      "zip": "97843"
+    },
+    "average_transaction": 412.43,
+    "rating": 3.5,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000677",
+    "merchant_name": "Amazon",
+    "category": "Clothing",
+    "business_type": "Retail",
+    "established_date": "2021-12-02T21:50:32.467471",
+    "location": {
+      "address": "1344 Main St",
+      "city": "San Antonio",
+      "state": "AZ",
+      "zip": "72038"
+    },
+    "average_transaction": 25.82,
+    "rating": 3.6,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000189",
+    "merchant_name": "Starbucks",
+    "category": "Dining",
+    "business_type": "Wholesale",
+    "established_date": "2015-04-20T21:50:32.467840",
+    "location": {
+      "address": "7997 Market St",
+      "city": "Houston",
+      "state": "FL",
+      "zip": "91654"
+    },
+    "average_transaction": 358.8,
+    "rating": 4.8,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000024",
+    "merchant_name": "Macy's",
+    "category": "Groceries",
+    "business_type": "Wholesale",
+    "established_date": "2023-03-07T21:50:32.467883",
+    "location": {
+      "address": "1454 Business St",
+      "city": "San Antonio",
+      "state": "OH",
+      "zip": "81279"
+    },
+    "average_transaction": 307.2,
+    "rating": 3.0,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000193",
+    "merchant_name": "Nordstrom",
+    "category": "Travel",
+    "business_type": "Restaurant",
+    "established_date": "2013-12-04T21:50:32.468013",
+    "location": {
+      "address": "6392 Commerce St",
+      "city": "Philadelphia",
+      "state": "TX",
+      "zip": "33056"
+    },
+    "average_transaction": 38.22,
+    "rating": 5.0,
+    "verified": false
+  },
+  {
+    "merchant_id": "MERCH-000054",
+    "merchant_name": "Nike",
+    "category": "Dining",
+    "business_type": "Online",
+    "established_date": "2006-01-07T21:50:32.468057",
+    "location": {
+      "address": "5209 Business St",
+      "city": "San Diego",
+      "state": "NY",
+      "zip": "16770"
+    },
+    "average_transaction": 68.79,
+    "rating": 3.6,
+    "verified": true
+  },
+  {
+    "merchant_id": "MERCH-000901",
+    "merchant_name": "Shell Gas",
+    "category": "Home Improvement",
+    "business_type": "Online",
+    "established_date": "2013-06-07T21:50:32.468188",
+    "location": {
+      "address": "2784 Commerce St",
+      "city": "San Jose",
+      "state": "FL",
+      "zip": "88276"
+    },
+    "average_transaction": 306.88,
+    "rating": 3.7,
+    "verified": false
+  }
+]

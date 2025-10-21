@@ -1,0 +1,151 @@
+flowchart TD
+    %% Complete MerchantIQ Data Flow with Code Integration Points
+    
+    subgraph "☁️ Lenses MCP Platform (financial-data environment)"
+        LENSES[("🔥 Lenses MCP<br/>Real Financial Data<br/>14 Topics Active<br/>11.5M+ Transactions")]
+        
+        subgraph "📊 Live Kafka Topics"
+            CC_TOPIC["💳 credit-card-transactions<br/>7.2M messages<br/>$943M volume"]
+            PP_TOPIC["💰 paypal-transactions<br/>3.4M messages<br/>$213M volume"] 
+            AL_TOPIC["🚗 auto-loan-payments<br/>795K messages<br/>$89M volume"]
+            HL_TOPIC["🏠 home-loan-payments<br/>Active stream<br/>$95M volume"]
+            REF_CUST["👥 ref-customers<br/>Customer metadata"]
+            REF_MERCH["🏪 ref-merchants<br/>Merchant metadata"]
+        end
+    end
+    
+    subgraph "🔧 Integration Layer"
+        CONFIG["⚙️ config/lenses_mcp.yaml<br/>Environment: financial-data<br/>Topics configuration<br/>Retry & sampling settings"]
+        
+        MCP_CLIENT["🔌 src/utils/mcp_client.py<br/>LensesMCPClient class<br/>async fetch_topic_data()<br/>Schema normalization"]
+    end
+    
+    subgraph "🤖 Agent Processing Pipeline"
+        COORD_AGENT["🎯 src/agents/coordinator_agent.py<br/>CoordinatorAgent<br/>Pipeline orchestration<br/>Health monitoring"]
+        
+        DI_AGENT["📥 src/agents/data_ingestion_agent.py<br/>DataIngestionAgent<br/>Lenses MCP integration<br/>DataFrame creation"]
+        
+        FE_AGENT["⚙️ src/agents/feature_engineering_agent.py<br/>FeatureEngineeringAgent<br/>Merchant metrics computation<br/>7-day rolling windows"]
+        
+        AT_AGENT["📈 src/agents/attribution_agent.py<br/>AttributionAgent<br/>Markov chain analysis<br/>Channel attribution"]
+        
+        MS_AGENT["🎯 src/agents/merchant_scoring_agent.py<br/>MerchantScoringAgent<br/>XGBoost ML scoring<br/>Risk assessment"]
+        
+        IN_AGENT["🧠 src/agents/insight_agent.py<br/>InsightAgent<br/>GPT-4 integration<br/>Business recommendations"]
+    end
+    
+    subgraph "💾 Data & Cache Layer"
+        UNIFIED_DF["📊 Unified DataFrame<br/>Normalized schemas<br/>Cross-channel events<br/>Temporal alignment"]
+        
+        FEATURES_CACHE["📦 Merchant Features Cache<br/>total_volume, avg_txn_value<br/>repeat_customer_ratio<br/>revenue_growth, volatility"]
+        
+        SCORES_CACHE["🎯 ML Scores Cache<br/>merchant_value_score<br/>risk_score<br/>composite_score"]
+        
+        INSIGHTS_CACHE["🧠 Business Insights Cache<br/>AI-generated recommendations<br/>Partnership opportunities<br/>Risk assessments"]
+    end
+    
+    subgraph "🖥️ Dashboard Application"
+        MAIN_DASH["📊 merchantiq_dashboard.py<br/>Streamlit app (Port 8500)<br/>5 comprehensive tabs<br/>Real-time updates"]
+        
+        subgraph "📈 Dashboard Components"
+            TAB_OVERVIEW["🔍 Overview Tab<br/>System KPIs<br/>Health metrics<br/>Live data volumes"]
+            
+            TAB_MERCHANTS["🏪 Merchants Tab<br/>Top performers<br/>Score distributions<br/>Trend analysis"]
+            
+            TAB_FRAUD["🚨 Fraud Detection Tab<br/>Risk indicators<br/>Anomaly detection<br/>Alert management"]
+            
+            TAB_AI["🤖 Analytics & AI Tab<br/>ML predictions<br/>Feature importance<br/>Model performance"]
+            
+            TAB_REALTIME["⚡ Real-time Monitoring<br/>Live transaction feeds<br/>Performance metrics<br/>System health"]
+        end
+        
+        DATA_SIM["🎭 LensesDataSimulator<br/>Real schema simulation<br/>Actual data volumes<br/>Live metric generation"]
+    end
+    
+    subgraph "👤 User Interface"
+        USERS["👥 Business Users<br/>Data Analysts<br/>Risk Managers<br/>Partnership Teams"]
+    end
+    
+    %% Configuration Flow
+    CONFIG --> COORD_AGENT
+    CONFIG --> MCP_CLIENT
+    CONFIG --> DI_AGENT
+    
+    %% Lenses MCP Data Flow
+    LENSES --> CC_TOPIC
+    LENSES --> PP_TOPIC
+    LENSES --> AL_TOPIC
+    LENSES --> HL_TOPIC
+    LENSES --> REF_CUST
+    LENSES --> REF_MERCH
+    
+    %% MCP Client Integration
+    CC_TOPIC --> MCP_CLIENT
+    PP_TOPIC --> MCP_CLIENT
+    AL_TOPIC --> MCP_CLIENT
+    HL_TOPIC --> MCP_CLIENT
+    REF_CUST --> MCP_CLIENT
+    REF_MERCH --> MCP_CLIENT
+    
+    %% Agent Pipeline Flow
+    MCP_CLIENT --> DI_AGENT
+    COORD_AGENT --> DI_AGENT
+    DI_AGENT --> UNIFIED_DF
+    
+    UNIFIED_DF --> FE_AGENT
+    FE_AGENT --> FEATURES_CACHE
+    
+    UNIFIED_DF --> AT_AGENT
+    FEATURES_CACHE --> MS_AGENT
+    AT_AGENT --> MS_AGENT
+    MS_AGENT --> SCORES_CACHE
+    
+    FEATURES_CACHE --> IN_AGENT
+    SCORES_CACHE --> IN_AGENT
+    IN_AGENT --> INSIGHTS_CACHE
+    
+    %% Dashboard Data Flow
+    FEATURES_CACHE --> MAIN_DASH
+    SCORES_CACHE --> MAIN_DASH
+    INSIGHTS_CACHE --> MAIN_DASH
+    COORD_AGENT --> MAIN_DASH
+    
+    %% Dashboard Components
+    MAIN_DASH --> TAB_OVERVIEW
+    MAIN_DASH --> TAB_MERCHANTS
+    MAIN_DASH --> TAB_FRAUD
+    MAIN_DASH --> TAB_AI
+    MAIN_DASH --> TAB_REALTIME
+    
+    %% Data Simulation
+    MAIN_DASH --> DATA_SIM
+    DATA_SIM --> TAB_REALTIME
+    
+    %% User Interface
+    TAB_OVERVIEW --> USERS
+    TAB_MERCHANTS --> USERS
+    TAB_FRAUD --> USERS
+    TAB_AI --> USERS
+    TAB_REALTIME --> USERS
+    
+    %% Real-time Feedback Loop
+    MAIN_DASH -.->|30s refresh| COORD_AGENT
+    COORD_AGENT -.->|Health check| MCP_CLIENT
+    MCP_CLIENT -.->|New data?| LENSES
+    
+    %% Styling
+    classDef lensesCloud fill:#e3f2fd,stroke:#0277bd,stroke-width:3px,color:#000
+    classDef integration fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000
+    classDef agents fill:#e8f5e8,stroke:#388e3c,stroke-width:2px,color:#000
+    classDef dataCache fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#000
+    classDef dashboard fill:#fce4ec,stroke:#c2185b,stroke-width:2px,color:#000
+    classDef users fill:#f1f8e9,stroke:#689f38,stroke-width:2px,color:#000
+    classDef topics fill:#e0f2f1,stroke:#00695c,stroke-width:1px,color:#000
+    
+    class LENSES lensesCloud
+    class CONFIG,MCP_CLIENT integration
+    class COORD_AGENT,DI_AGENT,FE_AGENT,AT_AGENT,MS_AGENT,IN_AGENT agents
+    class UNIFIED_DF,FEATURES_CACHE,SCORES_CACHE,INSIGHTS_CACHE dataCache
+    class MAIN_DASH,TAB_OVERVIEW,TAB_MERCHANTS,TAB_FRAUD,TAB_AI,TAB_REALTIME,DATA_SIM dashboard
+    class USERS users
+    class CC_TOPIC,PP_TOPIC,AL_TOPIC,HL_TOPIC,REF_CUST,REF_MERCH topics

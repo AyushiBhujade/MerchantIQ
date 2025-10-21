@@ -1,0 +1,90 @@
+flowchart TB
+    %% Simple MerchantIQ Architecture showing Lenses MCP integration
+    
+    subgraph "☁️ Lenses MCP Platform"
+        LENSMCP[("🔥 Lenses MCP<br/>financial-data env<br/>14 Topics<br/>11.5M+ Transactions")]
+        
+        subgraph "📊 Kafka Topics"
+            CC["💳 Credit Card<br/>Transactions<br/>7.2M msgs"]
+            PP["💰 PayPal<br/>Transactions<br/>3.4M msgs"] 
+            AL["🚗 Auto Loan<br/>Payments<br/>795K msgs"]
+            HL["🏠 Home Loan<br/>Payments<br/>Messages"]
+            RC["👥 Customers<br/>Reference"]
+            RM["🏪 Merchants<br/>Reference"]
+        end
+    end
+    
+    subgraph "🤖 MerchantIQ System"
+        COORD["🎯 Coordinator Agent<br/>Pipeline Orchestrator"]
+        
+        subgraph "🔄 Processing Agents"
+            DI["📥 Data Ingestion<br/>Agent"]
+            FE["⚙️ Feature Engineering<br/>Agent"] 
+            AT["📈 Attribution<br/>Agent"]
+            MS["🎯 Merchant Scoring<br/>Agent"]
+            IN["🧠 Insight<br/>Agent"]
+        end
+        
+        subgraph "💾 Data Layer"
+            CACHE["📦 Local Cache<br/>Features & Scores"]
+            CONFIG["⚙️ Configuration<br/>lenses_mcp.yaml"]
+        end
+    end
+    
+    subgraph "🖥️ User Interface"
+        DASH["📊 Streamlit Dashboard<br/>5 Tabs<br/>Port 8500"]
+        
+        subgraph "📈 Dashboard Tabs"
+            TAB1["🔍 Overview"]
+            TAB2["🏪 Merchants"]
+            TAB3["🚨 Fraud Detection"]
+            TAB4["🤖 Analytics & AI"]
+            TAB5["⚡ Real-time Monitoring"]
+        end
+    end
+    
+    %% Data Flow Connections
+    LENSMCP --> DI
+    CC --> DI
+    PP --> DI
+    AL --> DI
+    HL --> DI
+    RC --> DI
+    RM --> DI
+    
+    %% Pipeline Flow
+    COORD --> DI
+    DI --> FE
+    FE --> AT
+    AT --> MS
+    MS --> IN
+    
+    %% Data Storage
+    FE --> CACHE
+    MS --> CACHE
+    IN --> CACHE
+    CONFIG --> COORD
+    
+    %% Dashboard Data Flow
+    CACHE --> DASH
+    COORD --> DASH
+    
+    %% Dashboard Tabs
+    DASH --> TAB1
+    DASH --> TAB2
+    DASH --> TAB3
+    DASH --> TAB4
+    DASH --> TAB5
+    
+    %% Styling
+    classDef mcpCloud fill:#e1f5fe,stroke:#01579b,stroke-width:3px
+    classDef agents fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    classDef data fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
+    classDef ui fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    classDef topics fill:#f1f8e9,stroke:#33691e,stroke-width:1px
+    
+    class LENSMCP mcpCloud
+    class COORD,DI,FE,AT,MS,IN agents
+    class CACHE,CONFIG data
+    class DASH ui
+    class CC,PP,AL,HL,RC,RM topics
